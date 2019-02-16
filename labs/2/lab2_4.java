@@ -18,7 +18,7 @@ public class lab2_4 {
         int number2 = char2;
 
         // Print statement
-        System.out.println(number1 + number2);
+        System.out.println("The result is: " + number1 + number2);
 
 
 
