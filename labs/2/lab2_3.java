@@ -23,8 +23,10 @@ public class lab2_3 {
         } else {
 
             // Takes higher - lower + lower to make the necessary boundaries
+         for (int i = 0; i < 3; i ++){
             int randNumber = rand.nextInt(higherNumber - lowerNumber) + lowerNumber;
             System.out.println("The random number is: " + randNumber);
+         }
 
             // Print statement
         }
