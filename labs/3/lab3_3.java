@@ -4,7 +4,7 @@ public class lab3_3 {
         // Main method
         int newLine = 0;
             // initialized variable
-        for(int i =0; i<100; i++) {
+        for(int i=1; i<101; i++) {
             // For loop from 100 to 500
             System.out.print((char) i + " ");
             // Converts to ascii then prints
