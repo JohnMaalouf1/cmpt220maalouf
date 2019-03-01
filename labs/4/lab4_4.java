@@ -1,7 +1,6 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 // Import Scanner
 public class lab4_4 {
-    // Class
     public static void main(String[] args) {
         // Main method
         System.out.println("Hello user, This program counts the amount of Characters in a Sentence!\n"
@@ -12,32 +11,34 @@ public class lab4_4 {
         String userInput = input.nextLine();
         String userInputCleaned = userInput.replaceAll("[^a-zA-Z0-9]", "");
         // Takes userInput and cleans it up with Regex/Replacement
-        countChar(userInputCleaned);
-        // CountChar Method called
+        countCharacter(userInputCleaned);
+        // countCharacter Method called
     }
 
-    public static void countChar(String userInput) {
-        // CountChar Method
+    static void countCharacter(String UserInput) {
+        // Count countCharacter
         int[] countChar = new int[256];
-        // Declared Array of 256 ints
-        for (int i = 0; i < userInput.length(); i++) {
-            countChar[userInput.charAt(i)]++;
+        // 256 is max array size
+        char[] charCount = new char[UserInput.length()];
+        int foundChar;
+        // Declared Arrays and Variable
 
-        }
-        // For loop length of userInput takes char of ever letter
-        char[] charCount = new char[userInput.length()];
-        System.out.println("");
-        // Declare array of Chars, count additional Occurrences of already initialized characters
-        for (int i = 0; i < userInput.length(); i++) {
-            charCount[i] = userInput.charAt(i);
+        for (int i = 0; i < UserInput.length(); i++)
+            countChar[UserInput.charAt(i)]++;
+        // For loop going through String
 
-            System.out.println("The number of times " + userInput.charAt(i) + " occurs is:"  + count[userInput.charAt(i)]);
+        for (int i = 0; i < UserInput.length(); i++) {
+            charCount[i] = UserInput.charAt(i);
+            foundChar = 0;
+            for (int j = 0; j <= i; j++) {
+                if (UserInput.charAt(i) == charCount[j])
+                    foundChar++;
+            }
+            // For loop checking found Characters against new ones
+            if (foundChar == 1) {
+                System.out.println(UserInput.charAt(i) + " is found " + countChar[UserInput.charAt(i)] + " time(s)");
+            }
+            // Printing out Characters and times found
         }
-        // Counts and prints out how many times a character Appears in String
     }
 }
-*/
-
-
-
-
