@@ -1,39 +1,41 @@
 import java.util.Scanner;
-
+// Import Scanner
 public class lab4_3 {
-    // Main Method
+    // Class
     public static void main(String[]args){
-        // Scanner Class Called
+        // Main Method
         Scanner input = new Scanner(System.in);
-        System.out.println("Please Enter a String to check if it is Palindrome!");
-        System.out.print("----> ");
-        // User Input
+        // Scanner Class Called
+        System.out.println("Please Enter a String to check if it is Palindrome: ");
         String userString = input.nextLine();
-        // Prints out result of method
+        // User Input
         System.out.println(isPalindrome(userString));
+        // Prints out result of method
     }
-
-    public static boolean isPalindrome(String palindromTest){
+    public static boolean isPalindrome(String palindromeTest){
         // Declared Boolean testPalindrome
         boolean testPalindrome;
-        // If statement calls reverse method to and compares results
-        if (palindromTest.equals(reverse(palindromTest))){
+        if (palindromeTest.equals(reverse(palindromeTest))){
+            // If statement calls reverse method to and compares results
             testPalindrome = true;
             // returns true if strings equal each other
         }
-        else
+        else {
             testPalindrome = false;
-        // Otherwise returns false
+            // Otherwise returns false
+        }
         return testPalindrome;
     }
 
     public static String reverse(String reverseTest){
-        // String initialized
+        // Reverse Method called
         String reverseString = "";
-        for(int i = reverseTest.length() - 1; i >= 0; i--)
-        {
+        // String initialized
+
+        for(int i = reverseTest.length() - 1; i >= 0; i--) {
             reverseString = reverseString + reverseTest.charAt(i);
         }
+        // For loop that reverse String
         return reverseString;
     }
 }
