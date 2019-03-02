@@ -22,7 +22,7 @@ class lab4_7 {
 
     public static void main(String[] args) {
         // Main Method
-        System.out.println("Hello User, this program remove duplicate values from an array");
+        System.out.println("Hello User, this program removes duplicate values from an array");
         // Introductory Message
         Scanner input = new Scanner(System.in);
         // Scanner Class Called
