@@ -1,6 +1,7 @@
 import java.util.Scanner;
 // Import Scanner
 public class lab4_4 {
+    // Class
     public static void main(String[] args) {
         // Main method
         System.out.println("Hello user, This program counts the amount of Characters in a Sentence!\n"
