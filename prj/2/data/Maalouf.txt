@@ -1,0 +1,49 @@
+4
+Jack
+Maalouf
+9142624747
+USA
+NY
+BRIARCLIFF MANOR
+OLD BRIARCLIFF RD
+10510
+162
+SOFTWARE ENGINEER
+john.maalouf1
+3399 North Rd, Poughkeepsie, NY 12601
+Joseph
+Maalouf
+9144069881
+USA
+NY
+BRIARCLIFF MANOR
+OLD BRIARCLIFF RD
+10510
+162
+MECHANICAL ENGINEER
+joseph.maalouf1@
+100 Nicolls Rd, Stony Brook, NY 11794
+Alexandra
+Maalouf
+9144629259
+USA
+NY
+Briarcliff Manor
+Old Briarcliff rd
+10510
+162
+Biochemical Researcher
+Alexandra.maalouf1
+Tarry Town NY
+Genevieve
+Maalouf
+9146495167
+Canada
+Ontario
+Hamilton
+main
+47
+32
+Logic Professor
+Genevieve.maalouf1
+1280 Main St W, Hamilton,
